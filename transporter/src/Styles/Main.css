@@ -1,0 +1,15 @@
+.container {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.sideColumn {
+  width: 448px;
+  height: 100%;
+}
+
+.mapColumn {
+  height: 100%;
+}
