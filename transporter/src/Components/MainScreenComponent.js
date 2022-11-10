@@ -12,10 +12,10 @@ const MainScreenComponent = () => {
   return (
     <div className='container'>
       <div className='sideColumn'>
-        <MapComponent/>
+        <ColumnComponent/>
       </div>
       <div style={{width: screenSize}} className='mapColumn'>
-        <ColumnComponent/>
+        <MapComponent/>
       </div>
     </div>
   )
