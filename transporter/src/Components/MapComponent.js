@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 
 const MapComponent = () => {
-  return (
-    <div>MapComponent</div>
+  return(
+    <div  style={{ height: '500px', width: '500px'}}>
+      Map
+    </div>
   )
 }
+
 
 export default MapComponent
